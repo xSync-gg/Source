@@ -1,0 +1,166 @@
+local melee = Shop:AddLabel("");
+melee:Set("Melee");
+Shop:AddButton({
+	Name = " Buy Black Leg",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyBlackLeg");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Electro",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyElectro");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Fishman Karate",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyFishmanKarate");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Dragon Claw",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BlackbeardReward", "DragonClaw", "1");
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BlackbeardReward", "DragonClaw", "2");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Superhuman",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuySuperhuman");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Death Step",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyDeathStep");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Sharkman Karate",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuySharkmanKarate", true);
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuySharkmanKarate");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Electric Claw",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyElectricClaw");
+	end
+});
+Shop:AddButton({
+	Name = " Buy Dragon Talon",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyDragonTalon");
+	end
+});
+Shop:AddButton({
+	Name = " Buy God Human",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyGodhuman");
+	end
+});
+local sotig = Shop:AddLabel("");
+sotig:Set("Something");
+Shop:AddButton({
+	Name = "Buy Buso Haki",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyHaki", "Buso");
+	end
+});
+Shop:AddButton({
+	Name = "Buy Geppo",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyHaki", "Geppo");
+	end
+});
+Shop:AddButton({
+	Name = "Buy Soru",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyHaki", "Soru");
+	end
+});
+Shop:AddButton({
+	Name = "Buy Ken(Observation)",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("KenTalk", "Buy");
+	end
+});
+Shop:AddButton({
+	Name = "Reset Stats",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BlackbeardReward", "Refund", "1");
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BlackbeardReward", "Refund", "2");
+	end
+});
+Shop:AddButton({
+	Name = "Race Reroll",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BlackbeardReward", "Reroll", "1");
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BlackbeardReward", "Reroll", "2");
+	end
+});
+local sowaaaa = Shop:AddLabel("");
+sowaaaa:Set("Sword Shop");
+Shop:AddButton({
+	Name = "Cutlass",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Cutlass");
+	end
+});
+Shop:AddButton({
+	Name = "Katana",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Katana");
+	end
+});
+Shop:AddButton({
+	Name = "Iron Mace",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Iron Mace");
+	end
+});
+Shop:AddButton({
+	Name = "Dual Katana",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Duel Katana");
+	end
+});
+Shop:AddButton({
+	Name = "Triple Katana",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Triple Katana");
+	end
+});
+Shop:AddButton({
+	Name = "Pipe",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Pipe");
+	end
+});
+Shop:AddButton({
+	Name = "Dual-Headed Blade",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Dual-Headed Blade");
+	end
+});
+Shop:AddButton({
+	Name = "Bisento",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Bisento");
+	end
+});
+Shop:AddButton({
+	Name = "Soul Cane",
+	Callback = function()
+		(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("BuyItem", "Soul Cane");
+	end
+});
+Shop:AddButton({
+	Name = "Pole V2 [Full Awaken Rumble & Pole V1 180 Mas]",
+	Callback = function()
+		game.ReplicatedStorage.Remotes.CommF_:InvokeServer("ThunderGodTalk");
+	end
+});
