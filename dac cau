@@ -752,7 +752,8 @@ elseif World3 then
 		"Ice Cream Island",
 		"Cake Island",
 		"Choco Island",
-		"Candy Island"
+		"Candy Island",
+ 		"Tiki Island"
 	};
 end;
 function CheckBossQuest()
