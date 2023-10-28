@@ -207,7 +207,7 @@ Load.BackgroundTransparency = 1
 local uitoggled = false
 UserInputService.InputBegan:Connect(
 	function(io, p)
-		if io.KeyCode == Enum.KeyCode.RightControl then
+		if io.KeyCode == Enum.KeyCode.P then
 			if uitoggled == false then
 				uitoggled = true
 				UILibrary.Enabled = false
@@ -230,7 +230,7 @@ LoadButton.Position = UDim2.new(0.5, 0, 0.5, 0)
 LoadButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LoadButton.BackgroundTransparency = 1.000
 LoadButton.Size = UDim2.new(0, 70, 0, 70)
-LoadButton.Image = "http://www.roblox.com/asset/?id=10731738718"
+LoadButton.Image = "rbxassetid://15024381811"
 LoadButton.ImageTransparency = 1
 
 local ClickFrame = Instance.new("Frame")
@@ -498,7 +498,7 @@ function LoadFunction()
 					TweenInfo.new(.5, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut),
 					{TextTransparency = 0.2}
 				):Play()
-				TitleLoad.Text = "Loading Interface . . ."
+				TitleLoad.Text = "Loading . . ."
 				wait(0.35)
 				TweenService:Create(
 					TitleLoad,
@@ -511,7 +511,7 @@ function LoadFunction()
 					TweenInfo.new(.5, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut),
 					{TextTransparency = 0.2}
 				):Play()
-				TitleLoad.Text = "Get Patch Unique Script Version : 1.0.0"
+				TitleLoad.Text = "Made by tungsuccac"
 				wait(0.35)
 				TweenService:Create(
 					TitleLoad,
@@ -524,7 +524,7 @@ function LoadFunction()
 					TweenInfo.new(.45, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut),
 					{TextTransparency = 0.2}
 				):Play()
-				TitleLoad.Text = "Welcome to Unique Script | Premium Edition"
+				TitleLoad.Text = "Welcome to Crazzy Hub Pro Version"
 				TitleLoad.Font = Enum.Font.GothamBold
 				TitleLoad.TextTransparency = 0
 				wait(3)
