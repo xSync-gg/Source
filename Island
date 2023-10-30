@@ -1,6 +1,3 @@
-Island:AddButton({
-	Name = "Bypass Teleport",
-	Callback = function()
 		if _G.TeleportWarp == "Manslon" then
 		elseif _G.SelectWarp == "WindMill" then
 			wait(0.1);
@@ -220,6 +217,9 @@ Island:AddButton({
 			game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1141.0223388671875, 47.25519561767578, -14204.609375);
 			game.Players.LocalPlayer.Character.Head:Destroy();
 			(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetSpawnPoint");
+		elseif _G.SelectWarp == "Tiki Island" then
+			wait(0.1);
+			game.Players.localPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1149.328, 13.5759039, -14445.6143, -0.156446099, 0, -0.987686574, 0, 1, 0, 0.987686574, 0, -0.156446099);
+			game.Players.LocalPlayer.Character.Head:Destroy();
+			(game:GetService("ReplicatedStorage")).Remotes.CommF_:InvokeServer("SetSpawnPoint");
 		end;
-	end
-});
