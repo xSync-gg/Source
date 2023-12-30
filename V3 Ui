@@ -96,7 +96,7 @@ a.Idled:connect(
 )
 local a = Instance.new("ScreenGui")
 local e = Instance.new("ImageButton")
-_G.Primary = Color3.fromRGB(0, 0, 138)
+_G.Primary = Color3.fromRGB(43, 43, 43)
 _G.Dark = Color3.fromRGB(20, 16, 16)
 a.Parent = game.CoreGui
 a.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
