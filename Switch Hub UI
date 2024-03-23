@@ -79,7 +79,7 @@ local HttpService = game:GetService('HttpService')
 local Alc = {
 	Config = {
 		['UI Size'] = UDim2.new(0.100000001, 315, 0.100000001, 310),
-		['MainColor'] = Color3.fromRGB(0, 0, 138),
+		['MainColor'] = Color3.fromRGB(0, 255, 255),
 		['DropColor'] = Color3.fromRGB(0, 0, 138)
 	},
 	CoreGui = game:FindFirstChild('CoreGui') or LocalPlayer.PlayerGui,
