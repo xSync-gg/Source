@@ -80,7 +80,7 @@ local Alc = {
 	Config = {
 		['UI Size'] = UDim2.new(0.100000001, 315, 0.100000001, 310),
 		['MainColor'] = Color3.fromRGB(61, 207, 117),
-		['DropColor'] = Color3.fromRGB(25, 102, 61)
+		['DropColor'] = Color3.fromRGB(0, 0, 138)
 	},
 	CoreGui = game:FindFirstChild('CoreGui') or LocalPlayer.PlayerGui,
 	Windows = {},
