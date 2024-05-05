@@ -7,7 +7,7 @@ if not game:IsLoaded() then
 	GameLoadGui:Destroy();
 	task.wait(10);
 end;
-_G.Color = Color3.fromRGB(0, 86, 255)
+_G.Color = Color3.fromRGB(128, 128, 128)
 if game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("VVV") then game:GetService("CoreGui").RobloxGui.Modules:FindFirstChild("VVV"):Destroy() end
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -295,7 +295,7 @@ BtnStroke.Name = "BtnStroke"
     TextLabel.Size = UDim2.new(0, 200, 0, 50)
     TextLabel.Font = Enum.Font.FredokaOne
     TextLabel.Text = "English Version"
-    TextLabel.TextColor3 = Color3.fromRGB(0, 86, 255)
+    TextLabel.TextColor3 = Color3.fromRGB(128, 128, 128)
     TextLabel.TextSize = 18.000
     TextLabel.TextWrapped = true
  else
@@ -315,8 +315,8 @@ BtnStroke.Name = "BtnStroke"
     TextLabel.Position = UDim2.new(0.199847102, 0, 0.25, 0)
     TextLabel.Size = UDim2.new(0, 200, 0, 50)
     TextLabel.Font = Enum.Font.FredokaOne
-    TextLabel.Text = "Thai Version"
-    TextLabel.TextColor3 = Color3.fromRGB(0, 86, 255)
+    TextLabel.Text = "Shit Hub"
+    TextLabel.TextColor3 = Color3.fromRGB(128, 128, 128)
     TextLabel.TextSize = 18.000
     TextLabel.TextWrapped = true
  end
